@@ -17,7 +17,7 @@ export class PlaylistDownloader {
         }.mp3`,
       extractAudio: true,
       audioFormat: "mp3",
-      ffmpegLocation: path.join(path.resolve(), "node_modules/ffmpeg/bin/ffmpeg.exe"),
+      ffmpegLocation: path.join(path.resolve(), "vendor/ffmpeg/bin/ffmpeg.exe"),
 
       noCheckCertificates: true,
       noWarnings: true,
